@@ -9,8 +9,8 @@ body {
 header {
     display: flex;
     justify-content: center;
-    color: #F79439;
-    background-color: #2C2F33;
+    color: #e8ecef;
+    background-color: #495057;
     padding: 1.5em;
     font-size: 1.5em;
 }
@@ -67,13 +67,14 @@ section {
 }
 
 section h2 {
-    background-color: #495057;
+    background-color: white;
     color: #F79439;
     text-align: center;
     margin: 0;
     padding: .5em;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border-bottom: 1px solid #F79439;
 }
 
 section ol {
