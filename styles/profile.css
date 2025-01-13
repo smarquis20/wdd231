@@ -68,7 +68,7 @@ section {
 
 section h2 {
     background-color: white;
-    color: #F79439;
+    color: black;
     text-align: center;
     margin: 0;
     padding: .5em;
@@ -122,7 +122,7 @@ section:nth-child(3) {
 
 button {
     background-color: #d9751A;
-    color: white;
+    color: black;
     border: none;
     padding: 10px 40px;
     margin: 5px;
