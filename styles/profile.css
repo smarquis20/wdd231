@@ -146,11 +146,13 @@ h3 {
 
 .completed h3 {
     background-color: #495057;
+    border: 1px solid #FF9E67;
 }
 
 .incomplete h3 {
     background-color: #F8F9FA;
     color: black;
+    border: 1px solid #FF9E67;
 }
 
 footer {
