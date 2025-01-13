@@ -5,7 +5,7 @@ const mainnav = document.querySelector('nav');
 const hambutton = document.querySelector('#hamburger-menu');
 const navLinks = document.querySelectorAll('nav ul li a');
 const programDiv = document.getElementById('program-classes');
-const buttons = document.querySelectorAll('#button-container button')
+const buttons = document.querySelectorAll('#button-container button');
 
 const programName = ["CSE 110", "CSE 111", "CSE 210", "WDD 130", "WDD 131", "WDD 231"];
 
@@ -106,6 +106,10 @@ function createCourseCard(course) {
     programDiv.appendChild(courseCard);
 }
 
+function calculateCredits(coursesArray) {
+    return coursesArray.reduce((total, course) => total + course.credits, 0);
+}
+
 function displayCourses(coursesArray) {
     programDiv.innerHTML = '';
     coursesArray.forEach(course => createCourseCard(course));
@@ -121,6 +125,9 @@ function filteredCourses(filter) {
         filtered = courses;
     }
     displayCourses(filtered);
+
+    const credits = calculateCredits(filtered);
+    document.getElementById('credit-counter').textContent = credits;
 }
 
 filteredCourses('All');

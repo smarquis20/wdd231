@@ -1,15 +1,16 @@
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #F1F1F2;
+    background-color: #F8F9FA;
     margin: 0;
     padding: 0;
+    color: #333333;
 }
 
 header {
     display: flex;
     justify-content: center;
     color: #F79439;
-    background-color: #495057;
+    background-color: #2C2F33;
     padding: 1.5em;
     font-size: 1.5em;
 }
@@ -34,13 +35,14 @@ nav a {
     margin-right: 10px;
     text-decoration: none;
     background-color: black;
-    color: white;
+    color: #F1F1F2;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: orangered;
+    background-color: #F79439;
+    color: #2C2F33;
 }
 
 #hamburger-menu {
@@ -56,7 +58,7 @@ main {
 }
 
 section {
-    background-color: #f4f4f4;
+    background-color: #e8ecef;
     border: 1px solid #495057;
     border-radius: 10px;
     padding: 0;
@@ -118,7 +120,7 @@ section:nth-child(3) {
 }
 
 button {
-    background-color: black;
+    background-color: #d9751A;
     color: white;
     border: none;
     padding: 10px 40px;
@@ -128,7 +130,7 @@ button {
 }
 
 button:hover {
-    background-color: orangered;
+    background-color: #FF9E67;
 }
 
 h3 {
@@ -141,11 +143,12 @@ h3 {
 }
 
 .completed h3 {
-    background-color: orangered;
+    background-color: #495057;
 }
 
 .incomplete h3 {
-    background-color: #495057;
+    background-color: #F8F9FA;
+    color: black;
 }
 
 footer {
