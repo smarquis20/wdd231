@@ -3,11 +3,10 @@ document.getElementById("lastModified").innerHTML = document.lastModified;
 
 const mainnav = document.querySelector('nav');
 const hambutton = document.querySelector('#hamburger-menu');
-const navLinks = document.querySelectorAll('nav ul li a');
+const navLinks = document.querySelectorAll('nav a');
 const programDiv = document.getElementById('program-classes');
 const buttons = document.querySelectorAll('#button-container button');
-
-const programName = ["CSE 110", "CSE 111", "CSE 210", "WDD 130", "WDD 131", "WDD 231"];
+const currentLink = window.location.pathname;
 
 const courses = [
     {
@@ -88,6 +87,14 @@ const courses = [
         completed: false
     }
 ]
+
+navLinks.forEach(link => {
+    if (link.href.includes(currentLink)) {
+        link.classList.add('active');
+    } else {
+        link.classList.remove('active');
+    }
+});
 
 function createCourseCard(course) {
     const courseCard = document.createElement('div');

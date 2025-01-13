@@ -46,6 +46,12 @@ nav a:hover {
     color: #2C2F33;
 }
 
+nav a:active {
+    background-color: #F79439;
+    color: #2C2F33;
+    font-weight: bold;
+}
+
 #hamburger-menu {
     display: none;
 }
