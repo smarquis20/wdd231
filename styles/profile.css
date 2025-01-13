@@ -122,9 +122,9 @@ section:nth-child(3) {
 }
 
 button {
-    background-color: #d9751A;
-    color: black;
-    border: none;
+    background-color: black;
+    color: white;
+    border: 2px solid #F79439;
     padding: 10px 40px;
     margin: 5px;
     border-radius: 5px;
