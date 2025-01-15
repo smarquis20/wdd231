@@ -20,10 +20,18 @@ const displayProphets = (prophets) => {
         let place = document.createElement('p');
         let portrait = document.createElement('img');
 
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
+        if (prophet.order === 1) {
+            fullName.textContent = `${prophet.name} ${prophet.lastname} - ${prophet.order}st Latter-Day President`;
+        } else if (prophet.order === 2) {
+            fullName.textContent = `${prophet.name} ${prophet.lastname} - ${prophet.order}nd Latter-Day President`;
+        } else if (prophet.order === 3) {
+            fullName.textContent = `${prophet.name} ${prophet.lastname} - ${prophet.order}rd Latter-Day President`;
+        } else {
+            fullName.textContent = `${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-Day President`;
+        }
+
         birth.textContent = `Date of Birth: ${prophet.birthdate}`;
         place.textContent = `Place of Birth: ${prophet.birthplace}`;
-
 
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastName}`);

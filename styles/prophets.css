@@ -46,6 +46,13 @@ footer {
 h1 {
     text-align: center;
     color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+    font-family: "Roboto", sans-serif;
 }
 
 section {
