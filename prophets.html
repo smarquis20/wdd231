@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 - Week02 Prophets - Shaun Marquis</title>
+    <meta name="author" content="Shaun Marquis">
+    <meta property="og:title" content="WDD 231 - Week02 Prophets">
+    <meta property="og:description"
+        content="WDD 231 - Week02 Prophets project that will create cards of each prophet and display their information.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://smarquis20.github.io/wdd231/prophets.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/prophets.css">
+    <link rel="icon" href="chiefs.ico">
+    <script src="scripts/prophets.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Latter-day Prophets</h1>
+    </header>
+    <main>
+        <div id="button-container">
+            <button onclick="filteredProphets('All')">All</button>
+            <button onclick="filteredProphets('Utah')">Born in Utah</button>
+            <button onclick="filteredProphets('Old')">Lived 95+</button>
+            <button onclick="filteredProphets('Children')">10+ Children</button>
+        </div>
+        <div id="cards"></div>
+    </main>
+    <footer>
+        Shaun Marquis | Latter-day Prophets
+    </footer>
+</body>
+
+</html>
