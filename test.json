@@ -1,0 +1,28 @@
+{
+    "family_name": "Marquis",
+    "move_in_date": "2012-05-24",
+    "number_of_people": 4,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Shaun Marquis",
+            "gender": "Male",
+            "birthdate": "1982-12-30"
+        },
+        {
+            "name": "Michelle Marquis",
+            "gender": "Female",
+            "birthdate": "1986-05-30"
+        },
+        {
+            "name": "Charly Marquis",
+            "gender": "Female",
+            "birthdate": "2010-03-13"
+        },
+        {
+            "name": "Sonney Marquis",
+            "gender": "Male",
+            "birthdate": "2007-03-28"
+        }
+    ]
+}
