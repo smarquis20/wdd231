@@ -1,0 +1,226 @@
+:root {
+    --primary-color: #3A3E49;
+    --secondary-color: #F1E9DB;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    line-height: 1.15;
+    background-color: rgb(241, 236, 236);
+}
+
+header {
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    display: block;
+}
+
+.title h1, p {
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 10px 1rem;
+}
+
+.logo img {
+    width: auto;
+    height: 60px;
+    margin-right: 10px;
+}
+
+#hambutton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+.nav-menu {
+    display: none;
+    list-style-type: none;
+    width: 100%;
+    background-color: var(--primary-color);
+    padding: 1rem;
+}
+
+.nav-menu.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-menu a {
+    display: block;
+    padding: .75rem 15px;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    text-align: center;
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+#hambutton::before {
+    content: '\2630';
+}
+
+#hambutton.open::before {
+    content: '\2716';
+}
+
+.detail-menu {
+    margin: 1rem auto;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.detail-menu button {
+    padding: 1rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-view section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0.25rem;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.list-view section img {
+    display: none;
+}
+
+.list-view #cards p {
+    color: black;
+    text-align: center;
+}
+
+.list-view #cards h2 {
+    text-align: center;
+}
+
+.list-view #cards a {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.list-view .street {
+    display: none;
+}
+
+.list-view .town {
+    display: none;
+}
+
+.list-view section:nth-child(even) {
+	background-color: rgb(231, 190, 147);
+}
+
+.grid-view #cards {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	grid-gap: 10px;
+	align-items: center;
+    padding: 0 20px;
+}
+
+.grid-view #cards .fullAddress {
+    display: none;
+}
+
+.grid-view section {
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+}
+
+.grid-view #cards img {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.grid-view #cards h2 {
+    font-style: oblique;
+}
+
+.grid-view #cards p {
+    color: black;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0 40px 0;
+    color: white;
+    background-color: var(--primary-color);
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 720px) {
+
+    #hambutton {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        width: auto;
+    }
+
+    .list-view section {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .list-view #cards p {
+        margin: 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .list-view #cards h2 {
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    .list-view #cards a {
+        text-align: left;
+    }
+}

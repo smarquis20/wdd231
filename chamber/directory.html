@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 - Chamber Website Project - Directory Page - Shaun Marquis</title>
+    <meta name="author" content="Shaun Marquis">
+    <meta property="og:title" content="WDD 231 - Chamber Website Project - Directory Page">
+    <meta property="og:description"
+        content="WDD 231 - Chamber Website Project - Create homepage and related pages for the platte city chamber of commerce.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://smarquis20.github.io/wdd231/chamber/directory.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" href="images/pirates-min.ico">
+    <script src="scripts/chamber.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/pirates-min.webp" alt="Chamber Logo">
+            <div class="title">
+                <h1>Platte City</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+        </div>
+        <button id="hambutton"></button>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Business Directory</a>
+            <a href="join.html">Join</a>
+        </nav>
+    </header>
+    <main>
+        <div class="detail-menu">
+            <button id="grid">☷ Grid</button>
+            <button id="list">☰ List</button>
+        </div>
+        <article class="grid-view">
+            <div id="cards"></div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Shaun Marquis | Missouri, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
