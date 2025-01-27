@@ -12,6 +12,11 @@ const forecastDisplay = document.querySelector('#forecast-display');
 const currentWeatherUrl = 'https://api.openweathermap.org/data/2.5/weather?lat=39.3703&lon=94.7825&units=imperial&appid=515d902ad03125d9b6e25846e25f1724';
 const forecastUrl = 'https://api.openweathermap.org/data/2.5/forecast?lat=39.3703&lon=94.7825&units=imperial&appid=515d902ad03125d9b6e25846e25f1724';
 
+hbutton.addEventListener('click', () => {
+    navElement.classList.toggle('open');
+    hbutton.classList.toggle('open');
+});
+
 async function getMemberData() {
     const response = await fetch(url);
     const data = await response.json();
