@@ -6,6 +6,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-858-2503",
             "website": "https://www.quiktrip.com/",
+            "email": "contact@quicktrip.com",
             "image": "images/qt.webp",
             "membership": 3
         },
@@ -15,6 +16,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-858-2121",
             "website": "https://www.connections.bank/",
+            "email": "contact@connectionsbank.com",
             "image": "images/connections.webp",
             "membership": 1
         },
@@ -24,6 +26,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-858-2712",
             "website": "https://www.mypricechopper.com/store-details?storeId=72",
+            "email": "contact@pricechopper.com",
             "image": "images/chopper.webp",
             "membership": 2
         },
@@ -33,6 +36,7 @@
             "city": "Platte City, MO 64079",
             "phone": "800-424-0427",
             "website": "https://www.plattecity.org/pview.aspx?id=17039&catid=0",
+            "email": "contact@libertygas.com",
             "image": "images/liberty.webp",
             "membership": 2
         },
@@ -42,6 +46,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-405-7712",
             "website": "http://pattyfarr.com/",
+            "email": "contact@remax.com",
             "image": "images/remax.webp",
             "membership": 1
         },
@@ -51,6 +56,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-628-3121",
             "website": "http://www.pcec.coop/",
+            "email": "contact@platteelectric.com",
             "image": "images/platteclay.webp",
             "membership": 3
         },
@@ -60,6 +66,7 @@
             "city": "Platte City, MO 64079",
             "phone": "816-858-5980",
             "website": "http://www.culvers.com",
+            "email": "contact@culvers.com",
             "image": "images/culvers.webp",
             "membership": 3
         }

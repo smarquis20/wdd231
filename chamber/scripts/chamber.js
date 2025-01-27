@@ -56,7 +56,8 @@ const displayMembers = (members) => {
         addressCity.textContent = `${member.address} ${member.city}`;
         addressCity.classList.add('fullAddress');
         phone.textContent = member.phone;
-    
+        membership.textContent = member.membership;
+
 
         logo.setAttribute('src', member.image);
         logo.setAttribute('alt', `Company logo of ${member.name}`);

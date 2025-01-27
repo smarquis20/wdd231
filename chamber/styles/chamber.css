@@ -102,6 +102,21 @@ header {
     margin-left: 10px;
 }
 
+.hero {
+    height: 33vh;
+    background-image: url('../images/platteCity.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    text-align: center;
+    padding: 1rem;
+}
+
 .list-view {
     display: flex;
     flex-direction: column;
@@ -186,6 +201,116 @@ header {
     color: black;
 }
 
+#weather-event {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+#weather-event .column {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    padding: 1rem;
+    text-align: center;
+    height: 300px;
+}
+
+#weather-event .column h2 {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+
+#spotlight {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 2rem;
+    background-color: var(--secondary-color);
+}
+
+#spotlight .spotlightCard {
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#spotlight .spotlightCard img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    object-fit: cover;
+}
+
+#spotlight .spotlightCard h3 {
+    margin: 0.5rem 0;
+    color: var(--primary-color);
+}
+
+#spotlight .spotlightCard p {
+    margin: 0.5rem 0;
+    color: #666;
+    font-size: 0.9rem;
+}
+
+#spotlight .spotlightCard a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+#spotlight .spotlightCard a:hover {
+    text-decoration: underline;
+}
+
+#current-temp {
+    margin-top: 60px;
+    color: black;
+}
+
+#current-temp p {
+    color: black;
+}
+
+#current-temp img {
+    width: 100px;
+    height: auto;
+}
+
+#forecast-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 60px;
+}
+
+#forecast-display p {
+    color: black;
+}
+
+.forecast-card {
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.forecast-card img {
+    width: 50px;
+    height: 50px;
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -226,5 +351,13 @@ footer {
 
     .list-view #cards a {
         text-align: left;
+    }
+
+    #weather-event {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    #weather-event .events {
+        grid-column: span 2;
     }
 }
