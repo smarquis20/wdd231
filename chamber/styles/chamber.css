@@ -439,7 +439,6 @@ form {
 
 form label {
     font-weight: bold;
-    columns: var(--primary-color);
     margin-bottom: 20px;
 }
 
