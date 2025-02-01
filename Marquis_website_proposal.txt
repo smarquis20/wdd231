@@ -1,0 +1,16 @@
+Proposal for Homeschool Co-op website
+
+This website will serve as a hub for the homeschool co-op that my wife belongs to.  It will provide schedules, calendars, education content, and communication tools that parents can all use and participate in.
+
+Desciption of Site
+
+ - Homepage - Overview of the co-op, mission statement and welcome message
+ - Calendar/Class Schedule - List of current and upcoming classes, events, and field trips
+ - Resources - Learning materials, lesson plans, links to helpful resources
+ - Member Directory - member / communication page
+ - Registration page - Possible may or may not include this page.  Allows old and new members a way to donate and pay for needed fees
+ - about us - List of administrators and place to contact leadership
+ 
+Reason for Choosing
+
+My wife is currently part of a homeschool co-op that is pretty new and they currently do not have a website to collaborate and organize all plans and events.  This will provide them with a way to organize their classes and events and provide communication of upcoming classes and events that is all in a central location.

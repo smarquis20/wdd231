@@ -311,6 +311,204 @@ header {
     height: 50px;
 }
 
+#membership-container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+#membership-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 300px;
+}
+
+.modal-content ul {
+    list-style-type: none;
+}
+
+.modal-content li {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.modal-content button {
+    margin-top: 15px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.modal-content p {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.modal-content button:hover {
+    background-color: rgba(58, 62, 73, 0.9);
+}
+
+.membership-modal {
+    justify-content: center;
+    gap: 20px;
+}
+
+.membership-modal h2 {
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+.membership-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 350px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.membership-card h3 {
+    margin-bottom: 10px;
+}
+
+.membership-card button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.membership-card button:hover {
+    background-color: rgba(58, 62, 73, 0.9);
+}
+
+.form-box {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-box h2 {
+    text-align: center;
+}
+
+.submit-box {
+    padding-left: 25px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    flex-direction: column;
+    gap: 15px;
+}
+
+form label {
+    font-weight: bold;
+    columns: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    border-color: var(--primary-color);
+    outline: none;
+    box-shadow: 0 0 5px rgba(58, 62, 73, 0.5);
+}
+
+form input[type="submit"] {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgba(58, 62, 73, 0.9);
+}
+
+.member-info {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 800px;
+    font-size: 1.5rem;
+}
+
+.thank-you {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thank-you p {
+    color: black;
+}
+
+#memberDetails {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#memberDetails li {
+    margin: 10px 0;
+    text-align: left;
+}
+
 footer {
     width: 100%;
     text-align: center;
@@ -359,5 +557,14 @@ footer {
     
     #weather-event .events {
         grid-column: span 2;
+    }
+
+    .form-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .membership-card {
+        margin-bottom: 20px;
     }
 }

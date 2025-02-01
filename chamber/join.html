@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>WDD 231 - Chamber Website Project - Join Page - Shaun Marquis</title>
+    <meta name="author" content="Shaun Marquis">
+    <meta name="description"
+        content="WDD 231 - Chamber Website Project - Join page allows users to join different tiers of membership.">
+    <meta property="og:title" content="WDD 231 - Chamber Website Project - Join Page">
+    <meta property="og:description"
+        content="WDD 231 - Chamber Website Project - Join page allows users to join different tiers of membership.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://smarquis20.github.io/wdd231/chamber/join.html">
+    <meta property="og:image" content="https://smarquis20.github.io/wdd231/chamber/images/pirates-min.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/chamber.css">
+    <link rel="icon" href="images/pirates-min.ico">
+    <script src="scripts/join.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/pirates-min.webp" alt="Chamber Logo">
+            <div class="title">
+                <h1>Platte City</h1>
+                <p>Chamber of Commerce</p>
+            </div>
+        </div>
+        <button id="hambutton" aria-label="Hamburger Button"></button>
+        <nav class="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="directory.html">Business Directory</a>
+            <a href="join.html" class="active">Join</a>
+        </nav>
+    </header>
+    <main>
+        <div class="form-box">
+            <form id="membership-form" method="get" action="thankyou.html">
+                <h2>Join the Platte City Chamber of Commerce</h2>
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required title="Enter your first name"
+                    autocomplete="given-name">
+
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required title="Enter your last name"
+                    autocomplete="family-name">
+
+                <label for="org-title">Organization Title:</label>
+                <input type="text" id="org-title" name="org-title" required title="Enter your Organizational Title"
+                    autocomplete="organization-title">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required title="Enter your Email Address"
+                    autocomplete="email" placeholder="example@domain.com">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required title="Enter your Phone Number" autocomplete="tel"
+                    placeholder="555-555-5555">
+
+                <label for="business-name">Business Name:</label>
+                <input type="text" id="business-name" name="business-name" required title="Enter your Business name"
+                    autocomplete="organization">
+
+                <label for="description">Business Description:</label>
+                <textarea id="description" name="description" rows="8"
+                    title="Enter a brief description of your business"></textarea>
+
+                <div class="submit-box">
+                    <label for="membership-level">Membership Level:</label>
+                    <select id="membership-level" name="membership-level" required>
+                        <option value="non-profit">Non Profit Membership</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+
+                    <input type="submit" value="Join Now">
+                    <input type="hidden" id="timestamp" name="timestamp">
+                </div>
+            </form>
+            <div class="membership-modal">
+                <h2>Membership Information</h2>
+                <div id="membership-container"></div>
+            </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Shaun Marquis | Missouri, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
