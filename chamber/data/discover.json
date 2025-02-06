@@ -1,0 +1,60 @@
+{
+    "places": [
+        {
+            "name": "National WWI Museum and Memorial",
+            "address": "2 Memorial Drive, Kansas City, MO 64108",
+            "cost": "$18 for adults, $14 for seniors, free for veterans and active military",
+            "description": "A comprehensive museum offering a profound look at the history of World War I with a vast collection of artifacts, personal stories, and interactive exhibits. The memorial offers panoramic views of the city.",
+            "photo_url": "https://tse3.mm.bing.net/th?id=OIP.HH0E53FI4HN5B2ZlmOCKdgAAAA&pid=Api"
+        },
+        {
+            "name": "Nelson-Atkins Museum of Art",
+            "address": "4525 Oak Street, Kansas City, MO 64111",
+            "cost": "Free (special exhibits may have a fee)",
+            "description": "An exceptional museum showcasing art from around the world, including European paintings, Asian art, and modern collections. The outdoor sculpture park is also a popular attraction.",
+            "photo_url": "https://tse4.mm.bing.net/th?id=OIP.rp86LH4ZcILqVRLrk8AnzgHaEK&pid=Api"
+        },
+        {
+            "name": "Kansas City Zoo",
+            "address": "6800 Zoo Drive, Kansas City, MO 64132",
+            "cost": "$15 for adults, $13 for children (ages 3-11), free for children under 2",
+            "description": "One of the largest zoos in the U.S., featuring over 1,700 animals and engaging exhibits like the African Safari, Tiger Trail, and Polar Bear Passage.",
+            "photo_url": "https://tse4.mm.bing.net/th?id=OIP.dK7TzZlJQbw05aLQJUIc9QHaDz&pid=Api"
+        },
+        {
+            "name": "Country Club Plaza",
+            "address": "4750 Broadway Boulevard, Kansas City, MO 64112",
+            "cost": "Free to visit (shopping and dining costs vary)",
+            "description": "A beautiful, historic shopping district with Spanish-inspired architecture. The area features high-end shops, restaurants, fountains, and cultural events, especially during the holiday season.",
+            "photo_url": "https://tse3.mm.bing.net/th?id=OIP.s3ETrwu1xTE3D277jsOlhQHaFJ&pid=Api"
+        },
+        {
+            "name": "Kauffman Stadium",
+            "address": "1 Royal Way, Kansas City, MO 64129",
+            "cost": "Tickets typically range from $15 to $150, depending on the game and seating",
+            "description": "Home of the Kansas City Royals, this stadium is perfect for baseball fans. Enjoy the games, and check out the Royals Hall of Fame for a glimpse into the team's rich history.",
+            "photo_url": "https://tse1.mm.bing.net/th?id=OIF.jZR%2bqAChphfc0JdjpYLZaQ&pid=Api"
+        },
+        {
+            "name": "Union Station",
+            "address": "30 W Pershing Rd, Kansas City, MO 64108",
+            "cost": "Free to explore (some attractions like Science City may have an entry fee)",
+            "description": "This historic station is a transportation hub and home to attractions like Science City, a giant model train exhibit, and various shops and restaurants. It often hosts seasonal events.",
+            "photo_url": "https://tse2.mm.bing.net/th?id=OIF.d4lL1opHwQkeX%2fZg94OsGw&pid=Api"
+        },
+        {
+            "name": "Worlds of Fun",
+            "address": "4545 Worlds of Fun Avenue, Kansas City, MO 64161",
+            "cost": "Ticket prices vary; typically around $50 for a single-day pass",
+            "description": "An expansive amusement park featuring seven roller coasters, numerous thrill rides, and a large water park called Oceans of Fun. It's a family-friendly destination offering entertainment for all ages.",
+            "photo_url": "https://www.worldsoffun.com/sites/default/files/styles/hero/public/2021-06/WOF-Patriot-2021.jpg"
+        },
+        {
+            "name": "Kauffman Center for the Performing Arts",
+            "address": "1601 Broadway Boulevard, Kansas City, MO 64108",
+            "cost": "Ticket prices vary depending on the performance",
+            "description": "A state-of-the-art venue hosting a variety of performances, including concerts, ballets, operas, and theater productions. The center is renowned for its stunning architecture and acoustics.",
+            "photo_url": "https://www.kauffmancenter.org/wp-content/uploads/2020/03/KauffmanCenter-Exterior-1.jpg"
+        }
+    ]
+}

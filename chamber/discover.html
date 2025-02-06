@@ -4,22 +4,22 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>WDD 231 - Chamber Website Project - Home Page - Shaun Marquis</title>
+    <title>WDD 231 - Chamber Website Project - Discover Page - Shaun Marquis</title>
     <meta name="author" content="Shaun Marquis">
     <meta name="description"
-        content="WDD 231 - Chamber Website Project - Create homepage and related pages for the platte city chamber of commerce.">
+        content="WDD 231 - Chamber Website Project - Discover page lists fun things to do around the area.">
     <meta property="og:title" content="WDD 231 - Chamber Website Project - Directory Page">
     <meta property="og:description"
-        content="WDD 231 - Chamber Website Project - Create homepage and related pages for the platte city chamber of commerce.">
+        content="WDD 231 - Chamber Website Project - Discover page lists fun things to do around the area.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://smarquis20.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://smarquis20.github.io/wdd231/chamber/discover.html">
     <meta property="og:image" content="https://smarquis20.github.io/wdd231/chamber/images/pirates-min.webp">
     <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
     <link rel="icon" href="images/pirates-min.ico">
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/discover.js" defer></script>
 </head>
 
 <body>
@@ -33,31 +33,14 @@
         </div>
         <button id="hambutton" aria-label="Hamburger Button"></button>
         <nav class="nav-menu">
-            <a href="index.html" class="active">Home</a>
-            <a href="discover.html">Discover</a>
+            <a href="index.html">Home</a>
+            <a href="discover.html" class="active">Discover</a>
             <a href="directory.html">Business Directory</a>
             <a href="join.html">Join</a>
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <h2>Welcome to Platte City Chamber of Commerce</h2>
-            <a href="join.html" class="join-button">Join Today</a>
-        </div>
-        <div id="weather-event">
-            <div class="column events">
-                <h2>Events</h2>
-            </div>
-            <div class="column current-weather">
-                <h2>Weather</h2>
-                <div id="current-temp"></div>
-            </div>
-            <div class="column forecast">
-                <h2>Forecast</h2>
-                <div id="forecast-display"></div>
-            </div>
-        </div>
-        <div id="spotlight"></div>
+        <div id="discover-place"></div>
     </main>
     <footer>
         <p>&copy;<span id="currentyear"></span> | Shaun Marquis | Missouri, USA</p>
