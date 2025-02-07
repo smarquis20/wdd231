@@ -524,30 +524,83 @@ form input[type="submit"]:hover {
     text-align: left;
 }
 
+#visit-message {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    background-color: var(--secondary-color);
+    padding-top: 15px;
+}
+
 #discover-place {
     display: grid;
-    grid-template-areas: 
-    "name"
-    "photo"
-    "cost"
-    "description"
-    "address";
     gap: 20px;
     padding: 2rem;
     background-color: var(--secondary-color);
 }
 
 #discover-place .discoverPlaceCard {
+    display: grid;
     text-align: center;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    padding: 1rem;
     overflow: hidden;
+    grid-template-areas:
+    "name"
+    "photo"
+    "description"
+    "address";
+    gap: 10px;
+}
+
+#discover-place .discoverPlaceCard h2 {
+    margin: 1rem 20px;
+    color: black;
+    grid-area: name;
 }
 
 #discover-place .discoverPlaceCard p {
+    margin: .5rem 10px;
     color: black;
+    grid-area: description;
+}
+
+#discover-place .discoverPlaceCard address {
+    margin: .5rem 10px;
+    color: black;
+    grid-area: address;
+}
+
+#discover-place .discoverPlaceCard figure {
+    margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0;
+    grid-area: photo;
+}
+
+#discover-place .discoverPlaceCard img {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.9);
+}
+
+#discover-place .discoverPlaceCard button {
+    max-width: 200px;
+    margin-left: auto;
+    margin-bottom: 10px;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#discover-place .discoverPlaceCard button:hover {
+    background-color: rgba(58, 62, 73, 0.9);
 }
 
 footer {
@@ -607,5 +660,47 @@ footer {
 
     .membership-card {
         margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    
+    #discover-place .discoverPlaceCard {
+        grid-template-areas:
+        "photo name"
+        "photo description"
+        "photo address"
+        "photo button";
+    }
+
+    #discover-place .discoverPlaceCard img {
+        margin: 30px;
+        transition: 1s ease;
+    }
+
+    #discover-place .discoverPlaceCard img:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    #discover-place {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #discover-place .discoverPlaceCard img {
+        transition: 1s ease;
+    }
+
+    #discover-place .discoverPlaceCard img:hover {
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 1s ease;
     }
 }
