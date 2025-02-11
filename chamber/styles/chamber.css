@@ -23,6 +23,10 @@ header {
     display: block;
 }
 
+.hide-title {
+    display: none;
+}
+
 .title h1, p {
     margin: 0 auto;
     overflow: hidden;
