@@ -29,6 +29,13 @@ header {
     color: white;
 }
 
+.title h2 {
+    margin: 0 auto;
+    overflow: hidden;
+    color: white;
+    font-size: 2.5rem;
+}
+
 .logo {
     display: flex;
     align-items: center;
