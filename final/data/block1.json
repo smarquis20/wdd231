@@ -1,0 +1,52 @@
+{
+    "blocks": [
+        {
+            "title": "test1National WWI Museum and Memorial",
+            "cap": "2 Memorial Drive, Kansas City, MO 64108",
+            "description": "A comprehensive museum offering a profound look at the history of World War I with a vast collection of artifacts, personal stories, and interactive exhibits. The memorial offers panoramic views of the city.",
+            "cost": "images/wwi.webp"
+        },
+        {
+            "title": "Nelson-Atkins Museum of Art",
+            "cap": "4525 Oak Street, Kansas City, MO 64111",
+            "description": "An exceptional museum showcasing art from around the world, including European paintings, Asian art, and modern collections. The outdoor sculpture park is also a popular attraction.",
+            "cost": "images/museum.webp"
+        },
+        {
+            "title": "Kansas City Zoo",
+            "cap": "6800 Zoo Drive, Kansas City, MO 64132",
+            "description": "One of the largest zoos in the U.S., featuring over 1,700 animals and engaging exhibits like the African Safari, Tiger Trail, and Polar Bear Passage.",
+            "cost": "images/zoo.webp"
+        },
+        {
+            "title": "Country Club Plaza",
+            "cap": "4750 Broadway Boulevard, Kansas City, MO 64112",
+            "description": "A beautiful, historic shopping district with Spanish-inspired architecture. The area features high-end shops, restaurants, fountains, and cultural events, especially during the holiday season.",
+            "cost": "images/plaza.webp"
+        },
+        {
+            "title": "Kauffman Stadium",
+            "cap": "1 Royal Way, Kansas City, MO 64129",
+            "description": "Home of the Kansas City Royals, this stadium is perfect for baseball fans. Enjoy the games, and check out the Royals Hall of Fame for a glimpse into the team's rich history.",
+            "cost": "images/royals.webp"
+        },
+        {
+            "title": "Union Station",
+            "cap": "30 W Pershing Rd, Kansas City, MO 64108",
+            "description": "This historic station is a transportation hub and home to attractions like Science City, a giant model train exhibit, and various shops and restaurants. It often hosts seasonal events.",
+            "cost": "images/union.webp"
+        },
+        {
+            "title": "Worlds of Fun",
+            "cap": "4545 Worlds of Fun Avenue, Kansas City, MO 64161",
+            "description": "An expansive amusement park featuring seven roller coasters, numerous thrill rides, and a large water park called Oceans of Fun. It's a family-friendly destination offering entertainment for all ages.",
+            "cost": "images/worldsoffun.webp"
+        },
+        {
+            "title": "Kauffman Center for the Performing Arts",
+            "cap": "1601 Broadway Boulevard, Kansas City, MO 64108",
+            "description": "A state-of-the-art venue hosting a variety of performances, including concerts, ballets, operas, and theater productions. The center is renowned for its stunning architecture and acoustics.",
+            "cost": "images/kaufman.webp"
+        }
+    ]
+}
