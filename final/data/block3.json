@@ -1,52 +1,60 @@
 {
     "blocks": [
         {
-            "title": "test3National WWI Museum and Memorial",
-            "cap": "2 Memorial Drive, Kansas City, MO 64108",
-            "description": "A comprehensive museum offering a profound look at the history of World War I with a vast collection of artifacts, personal stories, and interactive exhibits. The memorial offers panoramic views of the city.",
-            "cost": "images/wwi.webp"
+            "title": "Dr. Seuss on the Loose!",
+            "cap": "None",
+            "description": "Step into the whimsical world of Dr. Seuss! This imaginative class brings beloved stories like The Cat in the Hat and Green Eggs and Ham to life through storytelling, crafts, songs, and games. Perfect for sparking a love of reading and inspiring boundless imagination.",
+            "cost": "Under $20",
+            "age:": "5-7"
         },
         {
-            "title": "Nelson-Atkins Museum of Art",
-            "cap": "4525 Oak Street, Kansas City, MO 64111",
-            "description": "An exceptional museum showcasing art from around the world, including European paintings, Asian art, and modern collections. The outdoor sculpture park is also a popular attraction.",
-            "cost": "images/museum.webp"
+            "title": "Ninja Skillz",
+            "cap": "None",
+            "description": "Get ready to jump, climb, and conquer in this action-packed Ninja Fitness class!",
+            "cost": "Under $8",
+            "age:": "5-7"
         },
         {
-            "title": "Kansas City Zoo",
-            "cap": "6800 Zoo Drive, Kansas City, MO 64132",
-            "description": "One of the largest zoos in the U.S., featuring over 1,700 animals and engaging exhibits like the African Safari, Tiger Trail, and Polar Bear Passage.",
-            "cost": "images/zoo.webp"
+            "title": "Journey to Narnia",
+            "cap": "None",
+            "description": "Step through the wardrobe and into the magical world of Narnia! Through discussions, creative activities, and interactive projects, students will dive into The Lion, the Witch, and the Wardrobe and beyond.",
+            "cost": "$10 - $15",
+            "age:": "8-11"
         },
         {
-            "title": "Country Club Plaza",
-            "cap": "4750 Broadway Boulevard, Kansas City, MO 64112",
-            "description": "A beautiful, historic shopping district with Spanish-inspired architecture. The area features high-end shops, restaurants, fountains, and cultural events, especially during the holiday season.",
-            "cost": "images/plaza.webp"
+            "title": "Physical Education",
+            "cap": "None",
+            "description": "Students will play basketball, soccer, dodgeball, and flag sports. Please wear comfy clothing and athletic shoes.",
+            "cost": "Under $10",
+            "age:": "8-13"
         },
         {
-            "title": "Kauffman Stadium",
-            "cap": "1 Royal Way, Kansas City, MO 64129",
-            "description": "Home of the Kansas City Royals, this stadium is perfect for baseball fans. Enjoy the games, and check out the Royals Hall of Fame for a glimpse into the team's rich history.",
-            "cost": "images/royals.webp"
+            "title": "Art Through the Ages",
+            "cap": "None",
+            "description": "Explore famous artists, styles, and movements from history. Kids will experiment with a variety of mixed media techniques to express their creativity.",
+            "cost": "$15 - $20",
+            "age:": "8-11"
         },
         {
-            "title": "Union Station",
-            "cap": "30 W Pershing Rd, Kansas City, MO 64108",
-            "description": "This historic station is a transportation hub and home to attractions like Science City, a giant model train exhibit, and various shops and restaurants. It often hosts seasonal events.",
-            "cost": "images/union.webp"
+            "title": "Hidden Symbols of Israel Through Fairy Tales",
+            "cap": "None",
+            "description": "Explore themes, symbols, and stories in fairy tales connected to the history and values of both ancient and modern Israel.",
+            "cost": "$10",
+            "age:": "10+"
         },
         {
-            "title": "Worlds of Fun",
-            "cap": "4545 Worlds of Fun Avenue, Kansas City, MO 64161",
-            "description": "An expansive amusement park featuring seven roller coasters, numerous thrill rides, and a large water park called Oceans of Fun. It's a family-friendly destination offering entertainment for all ages.",
-            "cost": "images/worldsoffun.webp"
+            "title": "Mystery Makers: The Great Gadget Quest (Engineering)",
+            "cap": "8",
+            "description": "It's a mystery… an adventure! A treasure has been hidden in the old church, and it's up to you to find it! You must construct a tracking device to locate the treasure before time runs out. In this hands-on class, we will learn to build a tracking device and tackle other awesome engineering and coding projects.",
+            "cost": "$325 - $390",
+            "age:": "12+"
         },
         {
-            "title": "Kauffman Center for the Performing Arts",
-            "cap": "1601 Broadway Boulevard, Kansas City, MO 64108",
-            "description": "A state-of-the-art venue hosting a variety of performances, including concerts, ballets, operas, and theater productions. The center is renowned for its stunning architecture and acoustics.",
-            "cost": "images/kaufman.webp"
+            "title": "Adventures in Chemistry",
+            "cap": "10",
+            "description": "This hands-on, experiment-filled class covers chemical reactions, chemistry in everyday phenomena, and fun scientific explorations.",
+            "cost": "$20",
+            "age:": "13+"
         }
     ]
 }
