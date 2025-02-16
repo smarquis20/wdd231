@@ -464,7 +464,7 @@ footer p {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1600px) {
 
     .mission-photo {
         background-image: url(../images/jesus_rock.webp);
