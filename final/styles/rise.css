@@ -463,3 +463,14 @@ footer p {
         margin-bottom: 30px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+
+    .mission-photo {
+        background-image: url(../images/jesus_rock.webp);
+    }
+    
+    .vision-photo {
+        background-image: url(../images/heart_large.webp);
+    }
+}
