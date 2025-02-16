@@ -4,7 +4,7 @@ document.getElementById('lastModified').innerHTML = document.lastModified;
 document.addEventListener('DOMContentLoaded', function () {
     const nav = document.querySelector('.nav-menu');
     const header = document.querySelector('header');
-    const missionContainer = document.querySelector('.mission-container');
+    const missionContainer = document.querySelector('.main-container');
 
     function updateNavPosition() {
         const headerHeight = header.offsetHeight;
