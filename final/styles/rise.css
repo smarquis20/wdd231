@@ -19,6 +19,7 @@ body {
 
 main {
     background-color: var(--color3);
+    padding-bottom: 50px;
 }
 
 header {
@@ -92,13 +93,13 @@ header img {
         'vision-photo'
         'vision-text';
     grid-template-columns: 1fr;
-    margin: auto;
-    padding: 20px;
+    padding: 20px 0 40px 0;
 }
 
 .main-box {
     padding: 20px;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
 .main-text {
@@ -149,9 +150,7 @@ header img {
     justify-content: center;
     align-items: center;
     background-color: var(--font1);
-    padding: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 .acronym-r, .acronym-i, .acronym-s, .acronym-e {
@@ -188,19 +187,21 @@ header img {
 .join-us-button {
     display: flex;
     justify-content: center;
+    background-color: var(--font1);
+    box-shadow: 0 4px 2px rgba(0,0,0,0.5);
 }
 
 .join-button {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: var(--color3);
+    background-color: var(--color4);
     color: white;
     text-decoration: none;
     font-size: 1.2rem;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-size: 1.5rem;
     color: var(--font2);
 }
@@ -334,8 +335,8 @@ footer p {
 
     header img {
         width: 200px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     #hambutton {
