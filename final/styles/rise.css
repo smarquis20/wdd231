@@ -492,17 +492,4 @@ footer p {
         margin-top: 40px;
         margin-bottom: 40px;
     }
-
-    .mission-photo {
-        background-image: url(../images/jesus_rock.webp);
-        background-size: contain;
-        background-position: left center;
-        background-repeat: no-repeat;
-    }
-    
-    .vision-photo {
-        background-image: url(../images/heart_large.webp);
-        background-position: right center;
-        background-size: contain;
-    }
 }
