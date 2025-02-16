@@ -475,7 +475,7 @@ footer p {
     .mission-photo {
         background-image: url(../images/jesus_rock.webp);
         background-size: contain;
-        background-position: center center;
+        background-position: right 75% center;
     }
     
     .vision-photo {
