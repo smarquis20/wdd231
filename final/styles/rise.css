@@ -121,7 +121,7 @@ header img {
 .main-photo {
     background-size: cover;
     background-position: center;
-    height: 200px;
+    height: 300px;
 }
 
 .mission-photo {
@@ -132,7 +132,7 @@ header img {
 
 .vision-photo {
     background-attachment: fixed;
-    background-image: url(../images/heart.webp);
+    background-image: url(../images/mission_nature.jpg);
     grid-area: vision-photo;
 }
 
@@ -152,6 +152,17 @@ header img {
     align-items: center;
     background-color: var(--font1);
     padding: 20px 20px 40px 20px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-areas: 
+        'mission-photo'
+        'mission-text'
+        'vision-photo'
+        'vision-text';
+    grid-template-columns: 1fr;
+    padding: 20px 0 40px 0;
 }
 
 .acronym-r, .acronym-i, .acronym-s, .acronym-e {
@@ -422,6 +433,12 @@ footer p {
 
     .main-photo {
         height: 400px;
+    }
+
+    .mission-photo {
+        background-size: 1000px;
+        background-repeat: no-repeat;
+        background-position: left center;
     }
 
     .vision-photo {
