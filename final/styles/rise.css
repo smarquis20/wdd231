@@ -427,7 +427,7 @@ footer p {
     .vision-photo {
         background-size: 800px;
         background-repeat: no-repeat;
-        background-position: right;
+        background-position: right center;
     }
 
     .acronym-r, .acronym-i, .acronym-s, .acronym-e {
@@ -484,7 +484,7 @@ footer p {
     
     .vision-photo {
         background-image: url(../images/heart_large.webp);
-        background-position: right 25% center;
+        background-position: right center;
         background-size: contain;
     }
 }
