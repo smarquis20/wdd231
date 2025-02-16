@@ -472,5 +472,7 @@ footer p {
     
     .vision-photo {
         background-image: url(../images/heart_large.webp);
+        background-size: 1200px;
+        background-position: center;
     }
 }
