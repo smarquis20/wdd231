@@ -480,7 +480,7 @@ footer p {
     
     .vision-photo {
         background-image: url(../images/heart_large.webp);
-        background-position: center center;
+        background-position: right 25% center;
         background-size: contain;
     }
 }
