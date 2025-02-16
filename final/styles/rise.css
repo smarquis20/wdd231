@@ -466,6 +466,12 @@ footer p {
 
 @media screen and (min-width: 1600px) {
 
+    header img {
+        width: 300px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
     .mission-photo {
         background-image: url(../images/jesus_rock.webp);
         background-size: contain;
