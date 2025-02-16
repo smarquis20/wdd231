@@ -466,6 +466,10 @@ footer p {
 
 @media screen and (min-width: 1600px) {
 
+    main {
+        padding: 0 100px 50px 100px;
+    }
+
     header img {
         width: 300px;
         margin-top: 40px;
