@@ -1,52 +1,60 @@
 {
     "blocks": [
         {
-            "title": "test1National WWI Museum and Memorial",
-            "cap": "2 Memorial Drive, Kansas City, MO 64108",
-            "description": "A comprehensive museum offering a profound look at the history of World War I with a vast collection of artifacts, personal stories, and interactive exhibits. The memorial offers panoramic views of the city.",
-            "cost": "images/wwi.webp"
+            "title": "Inside Your Body",
+            "cap": "None",
+            "description": "Take a fun and fascinating journey inside the human body! This interactive class introduces young learners to the amazing systems that keep us moving, breathing, and growing. Through hands-on activities, creative art projects, and playful games, kids will explore topics like how the heart pumps blood, how the brain works, and what happens when we eat. Perfect for curious minds, this class combines science and creativity to spark a lifelong love of learning about the body.",
+            "cost": "$5-10",
+            "age:": "5-7"
         },
         {
-            "title": "Nelson-Atkins Museum of Art",
-            "cap": "4525 Oak Street, Kansas City, MO 64111",
-            "description": "An exceptional museum showcasing art from around the world, including European paintings, Asian art, and modern collections. The outdoor sculpture park is also a popular attraction.",
-            "cost": "images/museum.webp"
+            "title": "Beginner Spanish",
+            "cap": "None",
+            "description": "¡Hola otra vez! Come and learn Spanish with us! We will sing, move around, do crafts, and play games while learning.",
+            "cost": "$5",
+            "age:": "5-9"
         },
         {
-            "title": "Kansas City Zoo",
-            "cap": "6800 Zoo Drive, Kansas City, MO 64132",
-            "description": "One of the largest zoos in the U.S., featuring over 1,700 animals and engaging exhibits like the African Safari, Tiger Trail, and Polar Bear Passage.",
-            "cost": "images/zoo.webp"
+            "title": "Tantalizing Tastes",
+            "cap": "8",
+            "description": "Come cook culinary delights from places both near and far. We will create side dishes, entrees, desserts, and more!",
+            "cost": "$12 per Child",
+            "age:": "8-10"
         },
         {
-            "title": "Country Club Plaza",
-            "cap": "4750 Broadway Boulevard, Kansas City, MO 64112",
-            "description": "A beautiful, historic shopping district with Spanish-inspired architecture. The area features high-end shops, restaurants, fountains, and cultural events, especially during the holiday season.",
-            "cost": "images/plaza.webp"
+            "title": "Mystery Makers",
+            "cap": "None",
+            "description": "The Great Gadget Quest (Engineering) - It's a mystery… an adventure! A treasure has been hidden in the old church, and it's up to you to find it! You must construct a tracking device to locate the treasure before time runs out. In this hands-on class, we will learn to build a tracking device and tackle other awesome engineering and coding projects.",
+            "cost": "$325 - $390 (depending on class size)",
+            "age:": "8-11"
         },
         {
-            "title": "Kauffman Stadium",
-            "cap": "1 Royal Way, Kansas City, MO 64129",
-            "description": "Home of the Kansas City Royals, this stadium is perfect for baseball fans. Enjoy the games, and check out the Royals Hall of Fame for a glimpse into the team's rich history.",
-            "cost": "images/royals.webp"
+            "title": "Drama",
+            "cap": "None",
+            "description": "Step into the spotlight and let your creativity shine! This dynamic drama class is perfect for aspiring performers and those looking to build confidence, communication skills, and teamwork. Through fun games, improvisation, and character-building exercises, students will explore what it means to bring a story to life in a supportive environment.",
+            "cost": "TDB",
+            "age:": "10+"
         },
         {
-            "title": "Union Station",
-            "cap": "30 W Pershing Rd, Kansas City, MO 64108",
-            "description": "This historic station is a transportation hub and home to attractions like Science City, a giant model train exhibit, and various shops and restaurants. It often hosts seasonal events.",
-            "cost": "images/union.webp"
+            "title": "Knitting Club",
+            "cap": "None",
+            "description": "(Skill level: novice to expert) Bring your own projects and enjoy knitting with our group. Learn how to knit a cool beanie, soft, washable wool, and much more. Needles will be provided for those who need them. Students will be able to choose their yarn color in advance.",
+            "cost": "Under $30",
+            "age:": "10+"
         },
         {
-            "title": "Worlds of Fun",
-            "cap": "4545 Worlds of Fun Avenue, Kansas City, MO 64161",
-            "description": "An expansive amusement park featuring seven roller coasters, numerous thrill rides, and a large water park called Oceans of Fun. It's a family-friendly destination offering entertainment for all ages.",
-            "cost": "images/worldsoffun.webp"
+            "title": "Ukulele",
+            "cap": "10",
+            "description": "Discover the joy of playing the ukulele in this fun, beginner-friendly class! Whether you've never picked up an instrument before or want to add some cheerful tunes to your repertoire, this class will guide you through the basics of strumming, chords, and simple songs. No prior experience needed—just bring your ukulele (not a toy one), and let's make music together!",
+            "cost": "$195",
+            "age:": "11+"
         },
         {
-            "title": "Kauffman Center for the Performing Arts",
-            "cap": "1601 Broadway Boulevard, Kansas City, MO 64108",
-            "description": "A state-of-the-art venue hosting a variety of performances, including concerts, ballets, operas, and theater productions. The center is renowned for its stunning architecture and acoustics.",
-            "cost": "images/kaufman.webp"
+            "title": "Advanced Weightlifting",
+            "cap": "6",
+            "description": "Get strong and pick up where you left off in beginner weightlifting! Must wear comfortable gym clothes/shoes.",
+            "cost": "No Fee",
+            "age:": "14+"
         }
     ]
 }

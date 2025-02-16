@@ -17,11 +17,6 @@ body {
     font-family: 'San Francisco';
 }
 
-main {
-    background-color: var(--color3);
-    padding-bottom: 50px;
-}
-
 header {
     display: flex;
     justify-content: center;
@@ -86,6 +81,7 @@ header img {
 }
 
 .main-container {
+    background-color: var(--color3);
     display: grid;
     grid-template-areas: 
         'mission-photo'
@@ -145,13 +141,18 @@ header img {
 }
 
 .acronym {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-areas: 
+        'acronym-r acronym-i acronym-s acronym-e'
+        '. button button .';
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    place-items: center;
     background-color: var(--font1);
-    padding: 20px 20px 40px 20px;
+    padding: 40px 20px 40px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    margin-top: 40px;
+    gap: 5px;
 }
 
 .main-container {
@@ -160,7 +161,8 @@ header img {
         'mission-photo'
         'mission-text'
         'vision-photo'
-        'vision-text';
+        'vision-text'
+        'acronym';
     grid-template-columns: 1fr;
     padding: 20px 0 40px 0;
 }
@@ -168,24 +170,30 @@ header img {
 .acronym-r, .acronym-i, .acronym-s, .acronym-e {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-    margin-right: 8px;
     width: 80px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
 }
 
 .acronym-r {
     background-color: var(--color1);
+    grid-area: acronym-r;
 }
 
 .acronym-i {
     background-color: var(--color2);
+    grid-area: acronym-i;
 }
 
 .acronym-s {
     background-color: var(--color3);
+    grid-area: acronym-s;
 }
 
 .acronym-e {
     background-color: var(--color4);
+    grid-area: acronym-e;
 }
 
 .acronym-r h2, .acronym-i h2, .acronym-s h2, .acronym-e h2 {
@@ -196,16 +204,8 @@ header img {
     font-size: .75rem;
 }
 
-.join-us-button {
-    display: flex;
-    justify-content: center;
-    background-color: var(--font1);
-    box-shadow: 0 4px 2px rgba(0,0,0,0.5);
-}
-
 .join-button {
-    display: inline-block;
-    margin-top: 10px;
+    margin-top: 40px;
     padding: 10px 20px;
     background-color: var(--color4);
     color: white;
@@ -216,6 +216,7 @@ header img {
     margin-bottom: 20px;
     font-size: 1.5rem;
     color: var(--font2);
+    grid-area: button;
 }
 
 .join-button:hover {
@@ -223,33 +224,28 @@ header img {
     color: var(--font1);
 }
 
-.block {
+.class-schedule {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.5em 1em;
-    background: #f4f4f4;
-    border: 1px solid #ddd;
-    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
 .toggle-button1, .toggle-button2, .toggle-button3 {
-    background: #007acc;
-    color: var(--font1);
-    border: none;
-    padding: 0.5em 1em;
-    font-size: 1.2em;
+    font-size: 2rem;
     cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.4s ease;
+    transition: transform 0.5s ease;
+    padding: 20px 0 20px 0;
+    background-color: rgba(159, 81, 156, 0.5);
+    border: 3px solid var(--color1);
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
 .toggle-button1:hover, .toggle-button2:hover, .toggle-button3:hover {
-    background: #005f99;
-}
-
-.toggle-button1.expanded, .toggle-button2.expanded, .toggle-button3.expanded {
-    transform: rotate(45deg);
+    background-color: rgba(159, 81, 156, 1);
 }
 
 .toggle-content1, .toggle-content2, .toggle-content3 {
@@ -265,7 +261,7 @@ header img {
 }
 
 .toggleContentCard {
-    background-color: var(--font1);
+    background-color: var(--color1);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 20px;
@@ -339,7 +335,7 @@ footer p {
     margin-bottom: 20px;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1150px) {
 
     main {
         background-attachment: fixed;
@@ -423,7 +419,8 @@ footer p {
     .main-container {
         grid-template-areas: 
             'mission-photo mission-text'
-            'vision-text vision-photo';
+            'vision-text vision-photo'
+            'acronym acronym';
         grid-template-columns: 1fr 1fr;
     }
 
@@ -447,10 +444,23 @@ footer p {
         background-position: right center;
     }
 
+    .vision-text {
+        max-height: 400px;
+        overflow: hidden;
+    }
+
+    .acronym {
+        grid-area: acronym;
+        background-color: var(--font1);
+        padding: 50px 20px 50px 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+        margin-top: 40px;
+    }
+
     .acronym-r, .acronym-i, .acronym-s, .acronym-e {
         padding: 15px;
-        margin-right: 15px;
-        width: 150px;
+        margin: 0;
+        width: 80%;
     }
 
     .acronym-r h2, .acronym-i h2, .acronym-s h2, .acronym-e h2 {
@@ -459,6 +469,12 @@ footer p {
     
     .acronym-r p, .acronym-i p, .acronym-s p, .acronym-e p {
         font-size: 1.5rem;
+    }
+
+    .block {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
 
     footer {
