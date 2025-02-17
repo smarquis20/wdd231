@@ -2,31 +2,38 @@
     "blocks": [
         {
             "title": "Music & Movement",
-            "cost": "$4"
+            "cost": "$4",
+            "image": "../images/default.webp"
         },
         {
             "title": "5 Homeroom",
-            "cost": "$3"
+            "cost": "$3",
+            "image": "../images/default.webp"
         },
         {
             "title": "6 & 7 Homeroom",
-            "cost": "$6"
+            "cost": "$6",
+            "image": "../images/default.webp"
         },
         {
             "title": "8 & 9 Homeroom",
-            "cost": "Under $15"
+            "cost": "Under $15",
+            "image": "../images/default.webp"
         },
         {
             "title": "10 & 11 Homeroom",
-            "cost": "$6"
+            "cost": "$6",
+            "image": "../images/default.webp"
         },
         {
             "title": "12 & 13 Homeroom",
-            "cost": "$5"
+            "cost": "$5",
+            "image": "../images/default.webp"
         },
         {
             "title": "14+ Homeroom",
-            "cost": "No Fee"
+            "cost": "No Fee",
+            "image": "../images/default.webp"
         }
     ]
 }

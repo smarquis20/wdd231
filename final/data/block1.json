@@ -2,59 +2,67 @@
     "blocks": [
         {
             "title": "Inside Your Body",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Take a fun and fascinating journey inside the human body! This interactive class introduces young learners to the amazing systems that keep us moving, breathing, and growing. Through hands-on activities, creative art projects, and playful games, kids will explore topics like how the heart pumps blood, how the brain works, and what happens when we eat. Perfect for curious minds, this class combines science and creativity to spark a lifelong love of learning about the body.",
             "cost": "$5-10",
-            "age:": "5-7"
+            "age": "5-7",
+            "image": "images/default.webp"
         },
         {
             "title": "Beginner Spanish",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "¡Hola otra vez! Come and learn Spanish with us! We will sing, move around, do crafts, and play games while learning.",
             "cost": "$5",
-            "age:": "5-9"
+            "age": "5-9",
+            "image": "images/default.webp"
         },
         {
             "title": "Tantalizing Tastes",
             "cap": "8",
             "description": "Come cook culinary delights from places both near and far. We will create side dishes, entrees, desserts, and more!",
             "cost": "$12 per Child",
-            "age:": "8-10"
+            "age": "8-10",
+            "image": "images/default.webp"
         },
         {
             "title": "Mystery Makers: The Great Gadget Quest (Engineering)",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "It's a mystery… an adventure! A treasure has been hidden in the old church, and it's up to you to find it! You must construct a tracking device to locate the treasure before time runs out. In this hands-on class, we will learn to build a tracking device and tackle other awesome engineering and coding projects.",
             "cost": "$325 - $390 (depending on class size)",
-            "age:": "8-11"
+            "age": "8-11",
+            "image": "images/default.webp"
         },
         {
             "title": "Drama",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Step into the spotlight and let your creativity shine! This dynamic drama class is perfect for aspiring performers and those looking to build confidence, communication skills, and teamwork. Through fun games, improvisation, and character-building exercises, students will explore what it means to bring a story to life in a supportive environment.",
             "cost": "TDB",
-            "age:": "10+"
+            "age": "10+",
+            "image": "images/default.webp"
         },
         {
             "title": "Knitting Club",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "(Skill level: novice to expert) Bring your own projects and enjoy knitting with our group. Learn how to knit a cool beanie, soft, washable wool, and much more. Needles will be provided for those who need them. Students will be able to choose their yarn color in advance.",
             "cost": "Under $30",
-            "age:": "10+"
+            "age": "10+",
+            "image": "images/default.webp"
         },
         {
             "title": "Ukulele",
             "cap": "10",
             "description": "Discover the joy of playing the ukulele in this fun, beginner-friendly class! Whether you've never picked up an instrument before or want to add some cheerful tunes to your repertoire, this class will guide you through the basics of strumming, chords, and simple songs. No prior experience needed—just bring your ukulele (not a toy one), and let's make music together!",
             "cost": "$195",
-            "age:": "11+"
+            "age": "11+",
+            "image": "images/default.webp"
         },
         {
             "title": "Advanced Weightlifting",
             "cap": "6",
             "description": "Get strong and pick up where you left off in beginner weightlifting! Must wear comfortable gym clothes/shoes.",
             "cost": "No Fee",
-            "age:": "14+"
+            "age": "14+",
+            "image": "images/default.webp"
         }
     ]
 }

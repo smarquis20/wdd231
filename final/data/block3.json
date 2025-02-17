@@ -2,59 +2,67 @@
     "blocks": [
         {
             "title": "Dr. Seuss on the Loose!",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Step into the whimsical world of Dr. Seuss! This imaginative class brings beloved stories like The Cat in the Hat and Green Eggs and Ham to life through storytelling, crafts, songs, and games. Perfect for sparking a love of reading and inspiring boundless imagination.",
             "cost": "Under $20",
-            "age:": "5-7"
+            "age": "5-7",
+            "image": "../images/default.webp"
         },
         {
             "title": "Ninja Skillz",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Get ready to jump, climb, and conquer in this action-packed Ninja Fitness class!",
             "cost": "Under $8",
-            "age:": "5-7"
+            "age": "5-7",
+            "image": "../images/default.webp"
         },
         {
             "title": "Journey to Narnia",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Step through the wardrobe and into the magical world of Narnia! Through discussions, creative activities, and interactive projects, students will dive into The Lion, the Witch, and the Wardrobe and beyond.",
             "cost": "$10 - $15",
-            "age:": "8-11"
+            "age": "8-11",
+            "image": "../images/default.webp"
         },
         {
             "title": "Physical Education",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Students will play basketball, soccer, dodgeball, and flag sports. Please wear comfy clothing and athletic shoes.",
             "cost": "Under $10",
-            "age:": "8-13"
+            "age": "8-13",
+            "image": "../images/default.webp"
         },
         {
             "title": "Art Through the Ages",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Explore famous artists, styles, and movements from history. Kids will experiment with a variety of mixed media techniques to express their creativity.",
             "cost": "$15 - $20",
-            "age:": "8-11"
+            "age": "8-11",
+            "image": "../images/default.webp"
         },
         {
             "title": "Hidden Symbols of Israel Through Fairy Tales",
-            "cap": "None",
+            "cap": "No Cap",
             "description": "Explore themes, symbols, and stories in fairy tales connected to the history and values of both ancient and modern Israel.",
             "cost": "$10",
-            "age:": "10+"
+            "age": "10+",
+            "image": "../images/default.webp"
         },
         {
             "title": "Mystery Makers: The Great Gadget Quest (Engineering)",
             "cap": "8",
             "description": "It's a mystery… an adventure! A treasure has been hidden in the old church, and it's up to you to find it! You must construct a tracking device to locate the treasure before time runs out. In this hands-on class, we will learn to build a tracking device and tackle other awesome engineering and coding projects.",
             "cost": "$325 - $390",
-            "age:": "12+"
+            "age": "12+",
+            "image": "../images/default.webp"
         },
         {
             "title": "Adventures in Chemistry",
             "cap": "10",
             "description": "This hands-on, experiment-filled class covers chemical reactions, chemistry in everyday phenomena, and fun scientific explorations.",
             "cost": "$20",
-            "age:": "13+"
+            "age": "13+",
+            "image": "../images/default.webp"
         }
     ]
 }

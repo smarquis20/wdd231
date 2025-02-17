@@ -4,7 +4,7 @@ document.getElementById('lastModified').innerHTML = document.lastModified;
 document.addEventListener('DOMContentLoaded', function () {
     const nav = document.querySelector('.nav-menu');
     const header = document.querySelector('header');
-    const missionContainer = document.querySelector('.mission-container');
+    const missionContainer = document.querySelector('.time-events');
 
     function updateNavPosition() {
         const headerHeight = header.offsetHeight;
@@ -63,24 +63,77 @@ const displayBlocks = (blocks, toggleContent) => {
 
     blocks.forEach((block) => {
         let card = document.createElement('div');
+        let defaultImg = document.createElement('img');
         let title = document.createElement('h2');
-        let cap = document.createElement('p');
-        let cost = document.createElement('p');
-        let description = document.createElement('p');
 
         card.classList.add('toggleContentCard');
 
+        defaultImg.textContent = block.image;
         title.textContent = block.title;
-        cap.textContent = block.cap;
-        cost.textContent = block.cost;
-        description.textContent = block.description;
 
+        defaultImg.setAttribute('src', block.image);
+        defaultImg.setAttribute('alt', `Default Image for ${block.title}`);
+        defaultImg.setAttribute('loading', 'lazy');
+        defaultImg.setAttribute('width', '100');
+        defaultImg.setAttribute('height', 'auto');
+
+        card.appendChild(defaultImg);
         card.appendChild(title);
-        card.appendChild(cap);
-        card.appendChild(cost);
-        card.appendChild(description);
+
+        card.addEventListener('click', () => {
+            createModal(block);
+        });
 
         toggleContent.appendChild(card);
     });
 
+}
+
+function createModal(block) {
+    const modal = document.createElement('div');
+    modal.classList.add('modal');
+    const modalContent = document.createElement('div');
+    modalContent.classList.add('modal-content');
+    const image = document.createElement('img');
+    const title = document.createElement('h2');
+    const cost = document.createElement('p');
+    const age = document.createElement('p');
+    const cap = document.createElement('p');
+    const description = document.createElement('p');
+    const closeButton = document.createElement('button');
+
+    title.textContent = block.title;
+    cost.textContent = `Cost: ${block.cost}`;
+    age.textContent = `Age Range: ${block.age}`;
+    cap.textContent = `Student Capacity: ${block.cap}`;
+    description.textContent = `Class Description: ${block.description}`;
+
+    image.setAttribute('src', block.image);
+    image.setAttribute('alt', `Default Image for ${block.title}`);
+    image.setAttribute('loading', 'lazy');
+    image.setAttribute('width', '100');
+    image.setAttribute('height', 'auto');
+    
+    closeButton.textContent = 'Close';
+    closeButton.addEventListener('click', () => {
+        document.body.removeChild(modal);
+    });
+
+    modal.addEventListener('click', (e) => {
+        if(e.target === modal) {
+            document.body.removeChild(modal);
+        }
+    });
+
+    modalContent.appendChild(image);
+    modalContent.appendChild(title);
+    modalContent.appendChild(cost);
+    modalContent.appendChild(age);
+    modalContent.appendChild(cap);
+    modalContent.appendChild(description);
+    modalContent.appendChild(closeButton);
+    
+    modal.appendChild(modalContent);
+
+    document.body.appendChild(modal);
 }
