@@ -17,6 +17,10 @@ body {
     font-family: 'San Francisco';
 }
 
+main {
+    background-color: var(--color3);
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -81,7 +85,6 @@ header img {
 }
 
 .main-container {
-    background-color: var(--color3);
     display: grid;
     grid-template-areas: 
         'mission-photo'
@@ -236,7 +239,7 @@ header img {
     cursor: pointer;
     transition: transform 0.5s ease;
     padding: 20px 0 20px 0;
-    background-color: rgba(159, 81, 156, 0.5);
+    background-color: rgba(159, 81, 156, 1);
     border: 3px solid var(--color1);
     margin-top: 10px;
     width: 100%;
@@ -245,7 +248,7 @@ header img {
 }
 
 .toggle-button1:hover, .toggle-button2:hover, .toggle-button3:hover {
-    background-color: rgba(159, 81, 156, 1);
+    background-color: rgba(159, 81, 156, 0.5);
 }
 
 .toggle-content1, .toggle-content2, .toggle-content3 {
@@ -300,6 +303,7 @@ header img {
     border-radius: 8px;
     margin: 0;
     padding: 0;
+    background-color: var(--font1);
 }
 
 .time h2, .announcements h2 {
@@ -310,7 +314,7 @@ header img {
     text-align: center;
     padding-top: 15px;
     font-size: 2rem;
-    background-color: var(--color3);
+    background-color: var(--color1);
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
 }
 
@@ -558,6 +562,7 @@ footer p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        z-index: 1000;
     }
     
     .modal-content {
