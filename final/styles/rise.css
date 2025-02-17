@@ -566,27 +566,28 @@ footer p {
         border-radius: 8px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         text-align: center;
-        width: 300px;
+        max-width: 500px;
     }
     
     .modal-content button {
         margin-top: 15px;
         padding: 8px 12px;
         border: none;
+        font-size: 1.2rem;
         border-radius: 4px;
-        color: white;
-        background-color: var(--primary-color);
+        color: var(--font2);
+        background-color: var(--color1);
         cursor: pointer;
     }
     
     .modal-content p {
         color: black;
-        font-weight: bold;
         font-size: 1.2rem;
     }
     
     .modal-content button:hover {
         background-color: rgba(58, 62, 73, 0.9);
+        color: var(--font1);
     }
 
     footer {

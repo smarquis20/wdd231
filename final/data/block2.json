@@ -3,37 +3,51 @@
         {
             "title": "Music & Movement",
             "cost": "$4",
-            "image": "../images/default.webp"
+            "age": "All Ages",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "5 Homeroom",
             "cost": "$3",
-            "image": "../images/default.webp"
+            "age": "5",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "6 & 7 Homeroom",
             "cost": "$6",
-            "image": "../images/default.webp"
+            "age": "6-7",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "8 & 9 Homeroom",
             "cost": "Under $15",
-            "image": "../images/default.webp"
+            "age": "8-9",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "10 & 11 Homeroom",
             "cost": "$6",
-            "image": "../images/default.webp"
+            "age": "10-11",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "12 & 13 Homeroom",
             "cost": "$5",
-            "image": "../images/default.webp"
+            "age": "12-13",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         },
         {
             "title": "14+ Homeroom",
             "cost": "No Fee",
-            "image": "../images/default.webp"
+            "age": "14+",
+            "cap": "No Cap",
+            "image": "images/default.webp"
         }
     ]
 }

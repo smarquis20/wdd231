@@ -103,10 +103,10 @@ function createModal(block) {
     const closeButton = document.createElement('button');
 
     title.textContent = block.title;
-    cost.textContent = `Cost: ${block.cost}`;
-    age.textContent = `Age Range: ${block.age}`;
-    cap.textContent = `Student Capacity: ${block.cap}`;
-    description.textContent = `Class Description: ${block.description}`;
+    cost.innerHTML = `<strong>Cost:</strong> ${block.cost}`;
+    age.innerHTML = `<strong>Age Range:</strong> ${block.age}`;
+    cap.innerHTML = `<strong>Student Capacity:</strong> ${block.cap}`;
+    description.textContent = block.description;
 
     image.setAttribute('src', block.image);
     image.setAttribute('alt', `Default Image for ${block.title}`);
