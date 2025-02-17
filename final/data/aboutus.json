@@ -1,0 +1,34 @@
+{
+    "members": [
+        {
+            "title": "CEO",
+            "name": "Joseph Smith",
+            "email": "default1@aol.com",
+            "image": "images/default1.webp"
+        },
+        {
+            "title": "HR Manager",
+            "name": "Emma Smith",
+            "email": "default2@aol.com",
+            "image": "images/default2.webp"
+        },
+        {
+            "title": "CIO",
+            "name": "Oliver Cowdery",
+            "email": "default3@aol.com",
+            "image": "images/default3.webp"
+        },
+        {
+            "title": "CFO",
+            "name": "Martin Harris",
+            "email": "default4@aol.com",
+            "image": "images/default4.webp"
+        },
+        {
+            "title": "COO",
+            "name": "Brigham Young",
+            "email": "default5@aol.com",
+            "image": "images/default5.webp"
+        }
+    ]
+}

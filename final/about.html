@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/rise.css">
     <link rel="icon" href="images/rise_logo.ico">
     <script src="scripts/hamburger-menu.js" defer></script>
-    <script src="scripts/rise.js" defer></script>
+    <script src="scripts/about.js" defer></script>
 </head>
 
 <body>
@@ -34,10 +34,10 @@
     </nav>
     <main>
         <div class="form-box">
-            <form id="membership-form" method="get" action="thankyou.html">
+            <form id="membership-form" method="get" action="signup.html">
                 <h2>Rise Academy Application</h2>
                 <label for="g-first-name">Guardian First Name:</label>
-                <input type="text" id="g-first-name" name="-gfirst-name" required title="Enter your first name"
+                <input type="text" id="g-first-name" name="g-first-name" required title="Enter your first name"
                     autocomplete="given-name">
 
                 <label for="g-last-name">Guardian Last Name:</label>
@@ -81,6 +81,10 @@
                     <input type="hidden" id="timestamp" name="timestamp">
                 </div>
             </form>
+        </div>
+        <div class="who-we-are">
+            <h2>Get to Know Us</h2>
+            <div class="staffBio"></div>
         </div>
     </main>
     <footer>
